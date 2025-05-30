@@ -31,7 +31,7 @@ public:
         {
 
             file.close();
-            cout << "\nCreat a folder Name Student(Path :C:\\Student)!!\n";
+            system("mkdir C:\\Student");
             cout << "Enter the Login Path :";
             getline(cin, login_Path);
             cout << "Enter the Data path :";

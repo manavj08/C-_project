@@ -16,7 +16,7 @@ protected:
 public:
     Book()
     {
-        ifstream file("C:\\BooK\\User_Book.txt"); 
+        ifstream file("C:\\BooK\\User_Book.txt");
         if (file.is_open())
         {
 
@@ -29,7 +29,7 @@ public:
         else
         {
             file.close();
-            cout << "\nCreat a folder Name Book(Path :C:\\Book)!!\n";
+            system("mkdir C:\\Book");
             cout << "Enter the Login Path :";
             getline(cin, login_Path);
             cout << "Enter the Data path :";

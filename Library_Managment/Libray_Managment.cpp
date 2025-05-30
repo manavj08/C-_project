@@ -33,7 +33,7 @@ protected:
         {
 
             file.close();
-            cout << "\nCreat a folder Name Library_Managment(Path :C:\\Library_Managment)!!\n";
+            system("mkdir C:\\Library_Managment)");
             cout << "Enter the Login Path :";
             getline(cin, login_path);
             cout << "Enter the Book Data path :";
